@@ -1,7 +1,7 @@
 /*
 Colors: #2b2b2b;
         #fff;
-        pink: #ff1f73;
+        blue: #3498db;
 */
 
 /*-------------------------------*/
@@ -71,7 +71,7 @@ h2{
 h2:after{
     display: block;
     height: 2px;
-    background-color: #ff1f73;
+    background-color: #3498db;
     content: " ";
     width: 70px;
     margin: 0 auto;
@@ -95,32 +95,32 @@ h2:after{
 
 .btn-full:link,
 .btn-full:visited{
-    border: 1px solid #ff1f73;
-    background-color: #ff1f73;
+    border: 1px solid #3498db;
+    background-color: #3498db;
     color: #fff;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited{
-    border: 1px solid #ff1f73;
-    color: #ff1f73;
+    border: 1px solid #3498db;
+    color: #3498db;
 }
 
 
 
 .btn:hover,
 .bnt:active{
-    background-color: #eb0058;
+    background-color: #2487c9;
 }
 
 .btn-full:hover,
 .btn-full:active{
-    border: 1px solid #eb0058;
+    border: 1px solid #2487c9;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active{
-    border: 1 px solid #eb0058;
+    border: 1 px solid #2487c9;
     color: #fff;
 }
 /* ----- ICONS ----- */
@@ -180,7 +180,7 @@ header{
 
 .main-nav li a:hover,
 .main-nav li a:visited{
-    border-bottom: 2px solid #ff1f73;
+    border-bottom: 2px solid #3498db;
 }
 
 /* About me*/
@@ -198,4 +198,21 @@ header{
     text-align: justify;
     margin: 25px 0;
     word-spacing: 2px;
+}
+
+/* Skills */
+
+.skillsIcon{
+    display: block;
+    margin: 30px auto;
+    height: 80px;
+    width: auto;
+}
+
+.box .skillsIcon:last-child{
+    margin-bottom: 0;
+}
+
+.section-skills{
+    background-color: #f6f9fb;
 }
