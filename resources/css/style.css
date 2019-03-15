@@ -200,19 +200,44 @@ header{
     word-spacing: 2px;
 }
 
-    /* Skills */
+/* Skills */
 
-    .skillsIcon{
-        display: block;
-        margin: 30px auto;
-        height: 80px;
-        width: auto;
-    }
-    
-    .box .skillsIcon:last-child{
-        margin-bottom: 0;
-    }
-    
-    .section-skills{
-        background-color: #f6f9fb;
-    }
+.skillsIcon{
+    display: block;
+    margin: 30px auto;
+    height: 80px;
+    width: auto;
+}
+
+.box .skillsIcon:last-child{
+    margin-bottom: 0;
+}
+
+.section-skills{
+    background-color: #f6f9fb;
+}
+
+/* Projects */
+
+.projects-showcase{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.projects-showcase li{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.projects-showcase li:last-child{
+    margin-right: 0;
+}
+
+.project-photo img{
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
