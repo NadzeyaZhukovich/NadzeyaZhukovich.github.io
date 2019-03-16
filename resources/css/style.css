@@ -241,3 +241,10 @@ header{
     opacity: 0.7;
 }
 
+/* Footer*/
+
+.copyright{
+    font-size: 70%;
+    text-align: center;
+    margin: 30px 0;
+}
