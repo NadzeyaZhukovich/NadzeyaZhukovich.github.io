@@ -78,6 +78,14 @@ h2:after{
     margin-top: 10px;
 }
 
+
+.section-contacts .row h2{
+    color: #fff;
+}
+
+.section-contacts .row h2:after{
+    background-color: #fff;
+}
 /* ----- LINKS ----- */
 
 /* ----- BUTTONS ----- */
@@ -239,6 +247,25 @@ header{
     width: 100%;
     height: auto;
     opacity: 0.7;
+}
+
+/* Contacts */
+
+.section-contacts{
+    background-color: #3498db;
+}
+
+.box-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon{
+    margin: 30px 40px 0 0;
+}
+
+.contact-icon:last-child{
+    margin-right: 0; 
 }
 
 /* Footer*/
