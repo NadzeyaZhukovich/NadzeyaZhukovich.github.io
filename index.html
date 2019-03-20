@@ -14,17 +14,16 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header id="home">
             <nav>
                 <div class="row">
                     <!-- <img src="" alert="logo" class="logo"> -->
                     <ul class="main-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About me</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contacts</a></li>
-                        <li><a href="#">CV</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
@@ -34,7 +33,7 @@
                     <p class="text-introduction">I am a driven, reliable and enthusiastic person with a passion for web development.</p>
                 </div>
         </header>
-        <section class="section-about-me">
+        <section class="section-about-me" id="about-me">
             <div class="row  clearfix">
                 <div class="col span_1_of_2">
                     <img src="resources/img/photo.png" class="my-photo" alert="my photo">
@@ -50,13 +49,13 @@
                             <br>
                             Now I am looking for my first Web Developer work or internship. I have a good base of knowledge in
                             HTML5, CSS3, JavaScript. I am planning to learn and improve my skills in React.js, Node.js and SASS.</p>
-                    <a href="#" class="btn btn-full"> hire me </a>
-                    <a href="#" class="btn btn-ghost"> download cv </a>
+                    <a href="#" class="btn btn-full js--scroll-to-contacts"> hire me </a>
+                    <a href="resources/pdf/Nadzeya-Zhukovich-CV.pdf" class="btn btn-ghost"> download cv </a>
                 </div>
             </div>
 
         </section>
-        <section class="section-skills">
+        <section class="section-skills" id="skills">
             <div class="row ">
                 <h2>skills</h2>
             </div>
@@ -75,7 +74,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-projects">
+        <section class="section-projects" id="projects">
             <div class="row ">
                 <h2>Projects</h2>
             </div>
@@ -114,15 +113,15 @@
                 </ul>
             </div>
         </section>
-        <section class="section-contacts">
+        <section class="section-contacts js--section-contacts" id="contacts">
             <div class="row">
                 <h2>Contacts</h2>
             </div>
             <div class="row box-icons">
-                <a href="#"  class="contact-icon"><img src="resources/img/github.png" alert="GitHub icon"></a>
-                <a href="#" class="contact-icon"><img src="resources/img/linkedin.png" alert="LinkedIn icon"></a>
-                <a href="#" class="contact-icon"><img src="resources/img/twitter.png" alert="Twitter icon"></a>
-                <a href="#" class="contact-icon"><img src="resources/img/mail.png" alert="Mail icon"></a>
+                <a href="https://github.com/NadzeyaZhukovich?tab=repositories" target="_blank" class="contact-icon"><img src="resources/img/github.png" alert="GitHub icon"></a>
+                <a href="https://www.linkedin.com/mynetwork/" target="_blank" class="contact-icon"><img src="resources/img/linkedin.png" alert="LinkedIn icon"></a>
+                <a href="https://twitter.com/?lang=ru" target="_blank" class="contact-icon"><img src="resources/img/twitter.png" alert="Twitter icon"></a>
+                <a href="mailto: nadzeya.zhukovich@gmail.com" target="_blank" class="contact-icon"><img src="resources/img/mail.png" alert="Mail icon"></a>
             </div>
         </section>
         <section class="section-map">
@@ -133,8 +132,9 @@
                 <p class="copyright">Copyright &copy; 2019 Nadzeya Zhukovich</p>
             </div>
         </footer>
-        
-        <script src=""></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="resources/js/script.js"></script>
 
     </body>
 </html>
