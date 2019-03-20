@@ -90,7 +90,6 @@ h2:after{
 .section-contacts .row h2:after{
     background-color: #fff;
 }
-/* ----- LINKS ----- */
 
 /* ----- BUTTONS ----- */
 
@@ -145,13 +144,12 @@ h2:after{
 .btn-project:last-child{
     margin-right: 0;
 }
-/* ----- ICONS ----- */
 
 /*-------------------------------*/
 /* HEADER*/
 /*-------------------------------*/
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/header-background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(img/header-background.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -304,6 +302,11 @@ header{
 .contact-icon{
     margin-top: 30px;
     margin-right: 30px;
+}
+
+.contact-icon img{
+    height: 70px;
+    width: auto;
 }
 
 .contact-icon:last-child{
