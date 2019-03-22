@@ -60,6 +60,60 @@
 /* Small hpones to small tablets: fron 481 to 767px */
 @media only screen and (max-width: 767px) {
     
+    nav{ display: none; }
+    h1{
+        font-size: 150%;
+        margin: 15px;
+    }
+
+    h2{  font-size: 100%;}
+
+    .text-welcom{ font-size: 93%; }
+    .text-introduction{
+        font-size: 68%;
+        line-height: 19px;
+    }
+
+    .my-photo{ margin-bottom: 25px; }
+
+    .about-me-text-box{
+        display: block;
+        text-align: center;
+    }
+
+    .about-me-text-box .btn{ width: 150px; }
+    
+    .box{ text-align: center; }
+    
+    .skillsIcon{
+        display: inline-block;
+        height: auto;
+        width: 80px;
+        margin-bottom: 0;
+        margin-right: 50px;
+        
+    }
+
+    .skillsIcon:last-child{
+        margin-right: 0;
+    }
+
+    .projects-showcase{
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .projects-showcase li{
+        width: 250px;
+        margin-right: 0;
+        text-align: center;
+        margin: 10px auto 0;
+    }
+
+    .projects-showcase li:last-child{
+        margin-right: auto;
+    }
 }
 
 /* Small hpones: from 0 to 480px*/
