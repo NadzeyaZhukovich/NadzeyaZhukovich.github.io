@@ -7,8 +7,7 @@
 
     .row{ padding: 0 2%; }
 
-    .btn:link,
-    .btn:visited{
+    .project-figcaption .btn{
         padding: 0;
         font-size: 70%;
     }
@@ -29,12 +28,38 @@
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+    body{ font-size: 18px; }
+    section{ padding: 50px 0; }
+    h2{ margin-bottom: 10px; }
+    .col{ margin: 0; }
+    .project-figcaption{ line-height: 20px; }
 
+    .skillsIcon{
+        margin: 15px auto;
+        height: 65px;
+        width: auto;
+    }
+
+    .projects-showcase{ margin-top: 25px; }
+
+    .contact-icon{
+        margin-top: 17px;
+        margin-right: 20px;
+    }
+
+    .contact-icon img{
+        height: 55px;
+        width: auto;
+    }
+
+    iframe{
+        height: 300px;
+    }
 }
 
 /* Small hpones to small tablets: fron 481 to 767px */
 @media only screen and (max-width: 767px) {
-
+    
 }
 
 /* Small hpones: from 0 to 480px*/
