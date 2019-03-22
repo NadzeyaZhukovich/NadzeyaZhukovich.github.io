@@ -1,0 +1,132 @@
+/* Big tablet to 1200px (widthhs smaller that the 1140px row */
+@media only screen and (max-width: 1200px) {
+    .welcom-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{ padding: 0 2%; }
+
+    .project-figcaption .btn{
+        padding: 0;
+        font-size: 70%;
+    }
+
+    .btn-project{
+        width: 180px;
+        height: 35px;
+        display: block;
+        margin-right: 0;
+        margin-top: 20px;
+        line-height: 35px;
+    }
+
+    .btn-project:last-child{
+        margin-top: 10px;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body{ font-size: 18px; }
+    section{ padding: 50px 0; }
+    h2{ margin-bottom: 10px; }
+    .col{ margin: 0; }
+    .project-figcaption{ line-height: 20px; }
+
+    .skillsIcon{
+        margin: 15px auto;
+        height: 65px;
+        width: auto;
+    }
+
+    .projects-showcase{ margin-top: 25px; }
+
+    .contact-icon{
+        margin-top: 17px;
+        margin-right: 20px;
+    }
+
+    .contact-icon img{
+        height: 55px;
+        width: auto;
+    }
+
+    iframe{
+        height: 300px;
+    }
+}
+
+/* Small phones to small tablets: fron 481 to 767px */
+@media only screen and (max-width: 767px) {
+    
+    nav{ display: none; }
+    h1{
+        font-size: 150%;
+        margin: 15px;
+    }
+
+    h2{  font-size: 100%;}
+
+    .text-welcom{ font-size: 93%; }
+    .text-introduction{
+        font-size: 68%;
+        line-height: 19px;
+    }
+
+    .my-photo{ margin-bottom: 25px; }
+
+    .about-me-text-box{
+        display: block;
+        text-align: center;
+    }
+
+    .about-me-text-box .btn{ width: 150px; }
+    
+    .box{ text-align: center; }
+    
+    .skillsIcon{
+        display: inline-block;
+        height: auto;
+        width: 80px;
+        margin-bottom: 0;
+        margin-right: 50px;
+        
+    }
+
+    .skillsIcon:last-child{
+        margin-right: 0;
+    }
+
+    .projects-showcase{
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .projects-showcase li{
+        width: 250px;
+        margin-right: 0;
+        text-align: center;
+        margin: 10px auto 0;
+    }
+
+    .projects-showcase li:last-child{
+        margin-right: auto;
+    }
+}
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .row{ padding: 0 4%; }
+    section{ padding: 30px 0; }
+    h1{ font-size: 110%; }
+    .welcom-text-box{ padding: 0 4%; }
+    .text-introduction{ font-size: 95%; }
+    .my-photo{ width: 180px; }
+    .about-me-text-box .btn{ margin-bottom: 15px; }
+    .about-me-text-box .btn:last-child{ margin-bottom: 0; }
+    .contact-icon img{ height: 40px; }
+    .skillsIcon{ width: 60px; }
+    .copyright{ margin: 15px 0; }
+}

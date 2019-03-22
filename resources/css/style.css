@@ -136,7 +136,7 @@ h2:after{
 }
 
 .btn-project{
-    margin-top: 110px;
+    margin-top: 50px;
     margin-right: 15px;
     position: relative;
 }
@@ -302,12 +302,12 @@ header{
     color: #fff;
     height: 100%;
     text-align: center;
-    padding: 20px 15px 15px;
+    line-height: 25px;
+    padding: 30px 15px 15px;
 }
 
 .project-figcaption span{
-    position: relative;
-    top: 30%;
+    font-size: 90%;
 }
 
 /* Contacts */
