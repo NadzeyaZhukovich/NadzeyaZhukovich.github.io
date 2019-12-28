@@ -13,13 +13,13 @@
 
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+<!--        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header id="home">
             <nav>
                 <div class="row">
-                    <!-- <img src="" alt="logo" class="logo"> -->
                     <ul class="main-nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about-me">About me</a></li>
@@ -34,8 +34,7 @@
                     <h1>Front-End Developer</h1>
                     <p class="text-introduction">I am a driven, reliable and enthusiastic person with a passion for web development.</p>
                 </div>
-            <a href="#about-me" class="scrollDown"><span></span><span></span><span></span></a>
-<!--            <button href="#" class="scrollDown"><span></span><span></span><span></span></button>-->
+            <a href="#about-me" class="scroll-down"><span></span><span></span><span></span></a>
         </header>
         <section class="section-about-me js--section-about-me" id="about-me">
             <div class="row  clearfix">
@@ -56,8 +55,10 @@
                             Now I am looking for my Web Developer work. I have a knowledge in
                             HTML5, CSS3, JavaScript and Angular. I am planning to learn and improve my skills in TypeScript,
                             Angular and SASS.</p>
-                    <a href="#" class="btn btn-full js--scroll-to-contacts"> hire me </a>
-                    <a href="resources/pdf/Nadzeya-Zhukovich-CV.pdf" target="_blank" class="btn btn-ghost"> download cv </a>
+                    <div class="btn-center-position">
+                        <a class="btn btn-full js--scroll-to-contacts" href="#"> hire me </a>
+                        <a class="btn btn-ghost" href="resources/pdf/Nadzeya-Zhukovich-CV.pdf" target="_blank"> download cv </a>
+                    </div>
                 </div>
             </div>
 
@@ -68,20 +69,20 @@
             </div>
             <div class="row clearfix">
                 <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_html5.png" alt="HTML5 icon" class="skillsIcon">
-                    <img src="resources/img/icon_css3.png" alt="CSS3 icon" class="skillsIcon">
+                    <img src="resources/img/icon_html5.png" alt="HTML5 icon" class="skills-icon">
+                    <img src="resources/img/icon_css3.png" alt="CSS3 icon" class="skills-icon skills-icon-last-element">
                 </div>
                 <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_javascript.png" alt="JavaScript icon" class="skillsIcon">
-                    <img src="resources/img/icon_rxjs.png" alt="RxJS icon" class="skillsIcon">
+                    <img src="resources/img/icon_javascript.png" alt="JavaScript icon" class="skills-icon">
+                    <img src="resources/img/icon_rxjs.png" alt="RxJS icon" class="skills-icon skills-icon-last-element">
                 </div>
                 <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_SASS.png" alt="SASS icon" class="skillsIcon">
-                    <img src="resources/img/icon_angular.png" alt="Angular icon" class="skillsIcon">
+                    <img src="resources/img/icon_SASS.png" alt="SASS icon" class="skills-icon">
+                    <img src="resources/img/icon_angular.png" alt="Angular icon" class="skills-icon skills-icon-last-element">
                 </div>
                 <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_github.png" alt="GitHub icon" class="skillsIcon">
-                    <img src="resources/img/icon_jira.svg" alt="Jira Software icon" class="skillsIcon">
+                    <img src="resources/img/icon_github.png" alt="GitHub icon" class="skills-icon">
+                    <img src="resources/img/icon_jira.svg" alt="Jira Software icon" class="skills-icon skills-icon-last-element">
                 </div>
             </div>
         </section>
@@ -89,55 +90,37 @@
             <div class="row ">
                 <h2>Projects</h2>
             </div>
-            <div class="row">
-                <ul class="projects-showcase">
-                    <li>
-                        <figure class="project-photo">
-                            <img src="resources/img/share-photo.jpg" alt="project-1">
-                            <figcaption class="project-figcaption">
-                                <span>
-                                    [WIP] Share photo
-                                    <br>
-                                    Share bright moments of your life with friends and family.
-                                    <br>
-                                    HTML, CSS, JS, React, REST API
-                                </span>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="project-photo">
-                            <img src="resources/img/weather.jpg" alt="project-3">
-                            <figcaption class="project-figcaption">
-                                <span> 
-                                    Weather Widget
-                                    <br>
-                                    Check the weather for your city. 
-                                    <br>
-                                    HTML, CSS, JS, REST API
-                                </span>
-                                <a href="https://github.com/NadzeyaZhukovich/Weather-Forecast" target="_blank" class="btn btn-full btn-project">source code</a>
-                                <a href="http://nadin-zh-demo.alexzh.com/weather-widget/" target="_blank" class="btn btn-ghost btn-project">live demo</a> 
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="project-photo">
-                            <img src="resources/img/omnifood.jpg" alt="project-2">
-                            <figcaption class="project-figcaption">
-                                <span>
-                                    Omnifood (course: Udemy) 
-                                    <br>
-                                    Example of single page website.
-                                    <br>
-                                    HTML, CSS, jQuery
-                                </span>
-                                <a href="https://github.com/NadzeyaZhukovich/Omnifood" target="_blank" class="btn btn-full btn-project">source code</a>
-                                <a href="http://nadin-zh-demo.alexzh.com/omnifood/" target="_blank" class="btn btn-ghost btn-project">live demo</a> 
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
+            <div class="row clearfix project-container">
+                <div class="col span_1_of_2">
+                    <img class="project-image" src="https://github.com/NadzeyaZhukovich/To-Do-List-Angular/blob/master/art/app-demo.png?raw=true" alt="To do list image">
+                </div>
+                <div class="col span_1_of_2">
+                    <p class="project-description"><span class="project-title">To Do List</span> is a responsive web
+                        application implemented with Angular framework, RxJS and SCSS.
+                        This application interacts with a server and allows to register and log in into account.
+                        User can create, modify and delete notes.
+                    </p>
+                    <div class="btn-center-position">
+                        <a href="#" target="_blank" class="btn btn-full">source code</a>
+                        <a href="#" target="_blank" class="btn btn-ghost">live demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row clearfix project-container">
+                <div class="col span_1_of_2">
+                    <p class="project-description"><span class="project-title">Weather Forecast</span>
+                        is a responsive web application implemented with Angular framework and SCSS.
+                        This application interacts with OpenWeatherMap API for fetching weather data
+                        for 5 days for required city.
+                    </p>
+                    <div class="btn-center-position">
+                        <a href="#" target="_blank" class="btn btn-full">source code</a>
+                        <a href="#" target="_blank" class="btn btn-ghost">live demo</a>
+                    </div>
+                </div>
+                <div class="col span_1_of_2">
+                    <img class="project-image" src="https://github.com/NadzeyaZhukovich/To-Do-List-Angular/blob/master/art/app-demo.png?raw=true" alt="To do list image">
+                </div>
             </div>
         </section>
         <section class="section-contacts js--section-contacts" id="contacts">
@@ -152,7 +135,7 @@
             </div>
         </section>
         <section class="section-map">
-                <iframe width="100%" height="450" id="map" src="https://maps.google.com/maps?q=Enschede&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe width="100%" height="400" id="map" src="https://maps.google.com/maps?q=Enschede&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </section>
         <footer>
             <div class="row">

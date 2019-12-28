@@ -34,7 +34,7 @@
     .col{ margin: 0; }
     .project-figcaption{ line-height: 20px; }
 
-    .skillsIcon{
+    .skills-icon{
         margin: 15px auto;
         height: 65px;
         width: auto;
@@ -85,7 +85,7 @@
     
     .box{ text-align: center; }
     
-    .skillsIcon{
+    .skills-icon{
         display: inline-block;
         height: auto;
         width: 80px;
@@ -94,7 +94,7 @@
         
     }
 
-    .skillsIcon:last-child{
+    .skills-icon:last-child{
         margin-right: 0;
     }
 
@@ -127,6 +127,6 @@
     .about-me-text-box .btn{ margin-bottom: 15px; }
     .about-me-text-box .btn:last-child{ margin-bottom: 0; }
     .contact-icon img{ height: 40px; }
-    .skillsIcon{ width: 60px; }
+    .skills-icon{ width: 60px; }
     .copyright{ margin: 15px 0; }
 }
