@@ -13,13 +13,12 @@
 
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-<!--        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">-->
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header id="home">
             <nav>
-                <div class="row">
+                <div class="row clearfix">
                     <ul class="main-nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about-me">About me</a></li>
@@ -29,19 +28,18 @@
                     </ul>
                 </div>
             </nav>
-                <div class="welcom-text-box">
-                    <p class="text-welcom">Hi! I'm Nadzeya Zhukovich</p>
-                    <h1>Front-End Developer</h1>
-                    <p class="text-introduction">I am a driven, reliable and enthusiastic person with a passion for web development.</p>
-                </div>
+            <div class="welcome-text-box">
+                <p class="text-welcome">Hi! I'm Nadzeya Zhukovich</p>
+                <h1>Front-End Developer</h1>
+                <p class="text-introduction">I am a driven, reliable and enthusiastic person with a passion for web development.</p>
+            </div>
             <a href="#about-me" class="scroll-down"><span></span><span></span><span></span></a>
         </header>
         <section class="section-about-me js--section-about-me" id="about-me">
-            <div class="row  clearfix about-me-container">
+            <div class="row clearfix about-me-container">
                 <div class="col span_1_of_2">
-                    <img src="resources/img/photo.png" class="my-photo" alt="my photo">
+                    <img src="resources/img/Nadzeya_Zhukovich_CV_Photo.png" class="my-photo" alt="Nadzeya Zhukovich photo">
                 </div>
-
                 <div class="col span_1_of_2 about-me-text-box">
                     <h2>About me</h2>
                     <p class="text-about-me">
@@ -57,32 +55,27 @@
                             Angular and SASS.</p>
                     <div class="btn-center-position">
                         <a class="btn btn-full js--scroll-to-contacts" href="#"> hire me </a>
-                        <a class="btn btn-ghost" href="resources/pdf/Nadzeya-Zhukovich-CV.pdf" target="_blank"> download cv </a>
+                        <a class="btn btn-ghost" href="resources/pdf/Nadzeya_Zhukovich_CV.pdf" target="_blank"> download cv </a>
                     </div>
                 </div>
             </div>
-
         </section>
         <section class="section-skills" id="skills">
             <div class="row ">
                 <h2>skills</h2>
             </div>
             <div class="row clearfix">
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_html5.png" alt="HTML5 icon" class="skills-icon">
-                    <img src="resources/img/icon_css3.png" alt="CSS3 icon" class="skills-icon skills-icon-last-element">
+                <div class="skills-box">
+                    <img src="resources/img/icon_html5.svg" alt="HTML5 icon" class="skills-icon">
+                    <img src="resources/img/icon_css3.svg" alt="CSS3 icon" class="skills-icon">
+                    <img src="resources/img/icon_sass.svg" alt="SASS icon" class="skills-icon">
+                    <img src="resources/img/icon_github.svg" alt="GitHub icon" class="skills-icon">
                 </div>
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_javascript.png" alt="JavaScript icon" class="skills-icon">
-                    <img src="resources/img/icon_rxjs.png" alt="RxJS icon" class="skills-icon skills-icon-last-element">
-                </div>
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_SASS.png" alt="SASS icon" class="skills-icon">
-                    <img src="resources/img/icon_angular.png" alt="Angular icon" class="skills-icon skills-icon-last-element">
-                </div>
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/icon_github.png" alt="GitHub icon" class="skills-icon">
-                    <img src="resources/img/icon_jira.svg" alt="Jira Software icon" class="skills-icon skills-icon-last-element">
+                <div class="skills-box">
+                    <img src="resources/img/icon_javascript.svg" alt="JavaScript icon" class="skills-icon">
+                    <img src="resources/img/icon_rxjs.svg" alt="RxJS icon" class="skills-icon">
+                    <img src="resources/img/icon_angular.svg" alt="Angular icon" class="skills-icon">
+                    <img src="resources/img/icon_jira.svg" alt="Jira Software icon" class="skills-icon">
                 </div>
             </div>
         </section>
@@ -106,7 +99,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row clearfix project-container">
+            <div class="row clearfix project-container revers-box">
+                <div class="col span_1_of_2">
+                    <img class="project-image" src="https://github.com/NadzeyaZhukovich/To-Do-List-Angular/blob/master/art/app-demo.png?raw=true" alt="To do list image">
+                </div>
                 <div class="col span_1_of_2">
                     <p class="project-description"><span class="project-title">To Do List</span> is a responsive web
                         application implemented with Angular framework, RxJS and SCSS.
@@ -117,9 +113,6 @@
                         <a href="https://github.com/NadzeyaZhukovich/To-Do-List-Angular" target="_blank" class="btn btn-full">source code</a>
                         <a href="#" target="_blank" class="btn btn-ghost">live demo</a>
                     </div>
-                </div>
-                <div class="col span_1_of_2">
-                    <img class="project-image" src="https://github.com/NadzeyaZhukovich/To-Do-List-Angular/blob/master/art/app-demo.png?raw=true" alt="To do list image">
                 </div>
             </div>
 
@@ -141,7 +134,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row clearfix project-container">
+            <div class="row clearfix project-container revers-box">
+                <div class="col span_1_of_2">
+                    <img class="project-image" src="https://github.com/NadzeyaZhukovich/Omnifood/blob/master/art/app-demo.png?raw=true">
+                </div>
                 <div class="col span_1_of_2">
                     <p class="project-description"><span class="project-title">Omnifood</span>
                         is a project from the course on Udemy “Build Responsive Real World Websites
@@ -154,9 +150,6 @@
                         <a href="https://github.com/NadzeyaZhukovich/Omnifood" target="_blank" class="btn btn-full">source code</a>
                         <a href="https://nadin-zh-demo.alexzh.com/omnifood/" target="_blank" class="btn btn-ghost">live demo</a>
                     </div>
-                </div>
-                <div class="col span_1_of_2">
-                    <img class="project-image" src="https://github.com/NadzeyaZhukovich/Omnifood/blob/master/art/app-demo.png?raw=true">
                 </div>
             </div>
         </section>
@@ -176,13 +169,12 @@
         </section>
         <footer>
             <div class="row">
-                <p class="copyright">Copyright &copy; 2019 Nadzeya Zhukovich</p>
+                <p class="copyright">Copyright &copy; 2020 Nadzeya Zhukovich</p>
             </div>
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="vendors/js/jquery.waypoints.min.js"></script>
         <script src="resources/js/script.js"></script>
-
     </body>
 </html>
